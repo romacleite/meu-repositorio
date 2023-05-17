@@ -1,0 +1,76 @@
+#hover:hover {
+    color:blueviolet
+}
+#active:active {
+    color:blue
+}
+#visited:visited {
+    color:blueviolet
+}
+#focus:focus {
+    background-color: orange;
+}
+li:first-child{
+    color:green
+}
+li:last-child{
+    color:red
+}
+li:nth-child(3) {
+    color:pink
+}
+p:first-of-type {
+    color:orangered
+}
+p:last-of-type {
+    color:blueviolet
+}
+p:nth-of-type(3) {
+    color:sandybrown
+}
+ol li:not(:nth-child(3)) {
+    color:aqua
+}
+input:checked {
+    border: none;
+    outline: 2px solid deeppink;
+}
+input[type=email] {
+    background-color: white;
+}
+input[type=email]:valid {
+    background-color: green;
+}
+input[type=email]:invalid {
+    background-color: red;
+}
+:required {
+    background-color: gold;
+    color:red;
+}
+::placeholder {
+    color: yellow
+}
+#before::before {
+    content: 'início';
+    color: pink;
+}
+#after::after {
+    content:'final';
+    color:orange;
+}
+#first-letter::first-letter{
+    color:red;
+    text-transform: uppercase;
+}
+#first-line::first-line{
+    color:blue;
+}
+#selection::selection{
+    color:red;
+    background: yellow;
+}
+#marker::marker{
+    color:red;
+    font-size: 100px;
+}

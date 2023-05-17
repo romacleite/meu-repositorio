@@ -1,0 +1,97 @@
+.gradiente {
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(pink, violet, purple);
+    transition: all 4s;
+}
+.gradiente:hover 
+{  
+    width:100px;
+    height:100px;
+
+}
+.gradiente1 {
+    width: 200px;
+    height: 200px;
+    background-image:linear-gradient(to top, yellow, green);
+    transition: width 4s;
+}
+.gadiente1:focus{
+    width:100px;
+    height:100px;
+}
+.transform {
+    margin:50px;
+    width:100px;
+    height:100px;
+    background-color: red;
+    transform: skew(30deg);
+    }
+.transform1 {
+    margin:50px;
+    width:100px;
+    height:100px;
+    background-color: red;
+    transform: translate(50px, 100px);
+}
+.transform2 {
+    margin:50px;
+    width:100px;
+    height:100px;
+    background-color: red;
+    transform: rotate(45deg);
+}
+.transform3 {
+    margin:50px;
+    width:100px;
+    height:100px;
+    background-color: red;
+    transform: scale(1,2);
+}
+.focus:focus{
+    margin:50px;
+    width:100px;
+    height:100px;
+    background-color: chocolate;
+}
+#animar {
+    animation-duration:3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+    from{
+        color:blue;
+    }
+    to {
+        color:blueviolet;
+      }
+}
+#caixa_animada {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: efeito;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+@keyframes efeito {
+    0% {
+        width: 100px;
+    }
+    25% {
+        width: 300px;
+    }
+    50%{
+        width: 100px;
+        background-color:darkkhaki;
+    }
+    75% {
+        width: 300px;
+    }
+    100% {
+        width: 100px;
+        background-color:green;
+    }
+}

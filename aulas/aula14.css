@@ -1,0 +1,85 @@
+#grid1 {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "nav content"
+    "nav footer"
+    ;
+    justify-items: stretch;
+    align-content: center;
+    justify-content: start;
+  }
+nav {
+    background-color: greenyellow;
+    grid-area: nav;
+}
+header {
+    grid-area: header;
+    background-color:fuchsia;
+ }
+section{
+    grid-area: content;
+    background-color: salmon;
+    
+}
+footer {
+    grid-area: footer;
+    background-color:cyan;
+   }
+#grid2 {
+    display:grid;
+    height: 600px;
+    width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-areas:
+    "verde verde azul azul azul"
+    "verde verde marrom marrom ciano"
+    "rosa rosa marrom marrom cinza";
+    gap:10px;
+}
+#green {
+    height: 3.8fr;
+    width: 3.8fr;
+    background-color: green;
+    grid-area:verde;
+    border-radius: 25px;
+    justify-self: start;
+}
+#pink {
+    height:1.8fr;
+    width:1.8fr;
+    background-color:pink;
+    grid-area:rosa;
+    border-radius: 25px;
+}
+#blue {
+    height:1.8fr;
+    width:2.8fr;
+    background-color:lightblue;
+    grid-area:azul;
+    border-radius: 25px;
+}
+#brown {
+    height:3.8fr;
+    width:3.6fr;
+    background-color: brown;
+    grid-area:marrom;
+    border-radius: 25px;
+}
+#aqua {
+    height:1.6fr;
+    width:0.8fr;
+    background-color:darkcyan;
+    grid-area:ciano;
+    border-radius: 25px;
+}
+#grey {
+    height: 1.8fr;
+    width:0.8fr;
+    background-color:grey;
+    grid-area:cinza;
+    border-radius: 25px;
+}

@@ -1,0 +1,72 @@
+.pai-flex {
+    display:flex;
+    flex-direction: column-reverse;
+    border: 1px solid red;
+    width:200px;
+}
+div div{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px dotted;
+    align-self: center;
+}
+.filho1 {
+    background-color: bisque;
+}
+.filho2 {
+    background-color: burlywood;
+}
+.filho3 {
+    background-color: cadetblue;
+}
+.filho4 {
+    background-color: darkseagreen;
+}
+.filho5 {
+    background-color: khaki;
+}
+header {
+    display:flex;
+    height:650px;
+    width:650px;
+    flex-direction:row;
+    border-top: black 3px solid;
+    text-align: center;
+}
+#main {
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    width:80%;
+}
+#sub {
+    display:flex;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+}
+nav {
+    background-color: orange;
+    height:100%;
+    width:20%;
+    align-content: center;
+}
+article {
+    background-color:royalblue;
+    width:70%;
+    }
+aside {
+ background-color: lightsalmon;
+  width:30%;
+}
+footer {
+    height: 10%;
+    background-color: aqua;
+}
+article, nav, header, footer, aside {
+    font-variant-caps: all-petite-caps;
+    font-weight: bolder;
+    color: white;
+    justify-content: center;
+}

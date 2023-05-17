@@ -1,0 +1,39 @@
+body{
+    background-color:aliceblue
+}
+div{
+    /* propriedades decorativas */
+  	border: solid 1px black;
+  	display: inline-block;
+  	font-size: 32px;
+  	font-family: Arial;
+   	/* propriedades que fazem o "problema" */
+  	width: 100px;
+  	height: 110px;
+    background-color: white;
+	overflow: auto;
+}
+span{
+	width:100px;
+	height:100px;
+	background-color: lightskyblue;
+	overflow:hidden;
+	border: solid 1px black;
+	display:block;
+}
+.teste{
+	border: dotted 1px black;
+  	display: inline-block;
+  	font-size: 32px;
+  	font-family: Arial;
+	margin: 5px 8px;
+	padding: 6px 9px;
+	border-radius: 10%;
+
+   	/* propriedades que fazem o "problema" */
+  	width: 100px;
+  	height: 110px;
+    background-color: white;
+	overflow: auto;
+	display: inline;
+}

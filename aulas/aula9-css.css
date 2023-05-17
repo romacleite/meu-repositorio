@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+H1{
+    color:blueviolet
+}
+section{
+    padding: 50px 30px 20px 60px;
+}
+section article{
+    background-color:#cccccc;
+    width:500px;
+    height:500px;
+    }
+section article p {
+    line-height:4;
+    color:orange;
+}
+.textoazul {
+    color:blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.textodestacado {
+    font-size: 80px;
+}
+#testeid {
+    color:green;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textorosa {
+    color:pink;
+}
+#fundorosa {
+    background-color:pink;
+    margin-left: 40px;
+}
+.desafio1 {
+    color:orange;
+}
+#lista1 {
+    color:rosybrown;
+    font-size:30px;
+}
+#important{
+    color:red
+}
+ol {
+    list-style-type: georgian;
+    color:#0d00ff;
+    background-color: khaki;
+    background-size: auto;
+}
+ul {
+    list-style-type: armenian;
+    color:#0d00ff;
+    background-color:aliceblue;
+}
